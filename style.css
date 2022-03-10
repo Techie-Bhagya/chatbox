@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.container {
+  height: 600px;
+  width: 450px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container .header {
+  height: 70px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 20px;
+  border-radius: 18px 18px 0 0;
+  background-image: linear-gradient(to right, #a745b1, #f6429a);
+  color: white;
+}
+
+.container .info {
+  height: 90px;
+  width: 350px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.form-container {
+  height: 380px;
+  width: 380px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  margin: 15px 0;
+  border-radius: 30px;
+}
+
+input {
+  height: 70px;
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+.chat {
+  height: 50px;
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, #a745b1, #f6429a);
+  color: white;
+  font-weight: 700;
+}
+.queries {
+  height: 90px;
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
